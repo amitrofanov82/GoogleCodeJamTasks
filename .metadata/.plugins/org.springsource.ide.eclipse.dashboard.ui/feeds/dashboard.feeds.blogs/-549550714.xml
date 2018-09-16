@@ -270,9 +270,9 @@ open fun kotlinSupplier(): () -&amp;gt; String {&#xD;
   &lt;li&gt;Mark Paluch has just announced Spring Vault 2.0.2, which &lt;a href="https://spring.io/blog/2018/09/10/spring-vault-2-0-2-released"&gt;delivers dependency updates and some minor bug fixes&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Mark Paluch just announced &lt;a href="https://spring.io/blog/2018/09/10/spring-vault-2-1-goes-rc"&gt;the Spring Vault 2.1 release candidate&lt;/a&gt;. Spring Vault 2.1 requires JDK 8 or higher and specifically supports JDK 11 as the next long-term support release. This release ships with 15 tickets fixed along with some refinements for Java 9 to 11. The most notable changes are support for Azure authentication with managed service instances on VMs, GCP IAM authentication support on behalf of service accounts, and the release is compatible with Vault versions from 0.5.2 up to 0.11.1.&lt;/li&gt;
   &lt;li&gt;Continuing my eight part series that looks at using Spring Cloud with Google Cloud, &lt;a href="https://spring.io/blog/2018/09/10/bootiful-gcp-use-spring-cloud-gcp-to-connect-to-other-gcp-services-7-8"&gt;this 7th installment looks at using Spring Cloud GCP to connect to other GCP Services&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Stéphane Nicoll just &lt;a href="https://spring.io/blog/2018/09/07/spring-framework-5-1-rc3-5-0-9-and-4-3-19-available-now"&gt;announced Spring Framework 5.1 RC3, 5.0.9 and 4.3.19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;St?phane Nicoll just &lt;a href="https://spring.io/blog/2018/09/07/spring-framework-5-1-rc3-5-0-9-and-4-3-19-available-now"&gt;announced Spring Framework 5.1 RC3, 5.0.9 and 4.3.19&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Continuing my eight part series that looks at using Spring Cloud with Google Cloud, &lt;a href="https://spring.io/blog/2018/09/06/bootiful-gcp-supporting-observability-with-spring-cloud-gcp-stackdriver-trace-6-8"&gt;this 6th installment looks at supporting observability with Spring Cloud GCP Stackdriver Trace&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Laís Neves looks at her experience at &lt;a href="https://medium.com/@lasneves/minha-experi%C3%AAncia-no-womakerscode-summit-sergipe-47740abc006f"&gt;the WoMakersCode conference&lt;/a&gt;, where she spoke about making Java fun again with Spring Boot, in this Portuguese-language post.&lt;/li&gt;
+  &lt;li&gt;La?s Neves looks at her experience at &lt;a href="https://medium.com/@lasneves/minha-experi%C3%AAncia-no-womakerscode-summit-sergipe-47740abc006f"&gt;the WoMakersCode conference&lt;/a&gt;, where she spoke about making Java fun again with Spring Boot, in this Portuguese-language post.&lt;/li&gt;
   &lt;li&gt;Sajal Chakraborty has a nice post on using &lt;a href="https://howtodoinjava.com/spring5/core/spring-remoting-rmi-hessian/"&gt;Spring&amp;rsquo;s RMI and Hessian service exporters support in a modern Spring Boot context&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;This new Packt book, &lt;a href="https://www.packtpub.com/application-development/mastering-architecting-solutions-spring-5"&gt;Software Architecture with Spring 5.0&lt;/a&gt;, looks interesting. I&amp;rsquo;m adding it to my &amp;ldquo;To Read&amp;rdquo; list..&lt;/li&gt;
   &lt;li&gt;This &lt;a href="https://medium.com/@igorkosandyak/spring-boot-with-hazelcast-b04d13927745"&gt;post on using Spring Boot and Hazelcast&lt;/a&gt; is helpful. This is pretty a propos given that I&amp;rsquo;m in Istanbul, Turkey, where Hazelcast debuted!&lt;/li&gt;
@@ -730,7 +730,7 @@ public class VisionApplication {&#xD;
     <link rel="alternate" href="https://spring.io/blog/2018/09/07/spring-framework-5-1-rc3-5-0-9-and-4-3-19-available-now" />
     <category term="releases" label="Releases" />
     <author>
-      <name>Stéphane Nicoll</name>
+      <name>St?phane Nicoll</name>
     </author>
     <id>tag:spring.io,2018-09-07:3383</id>
     <updated>2018-09-07T15:15:11Z</updated>

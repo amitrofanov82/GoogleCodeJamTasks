@@ -1,0 +1,29 @@
+package edu.mitrofanov.codejam.r1a_2008.task_a;
+
+import java.util.Arrays;
+
+import edu.mitrofanov.codejam.utils.StringUtils;
+
+public class TaskResolver {
+
+	public static String resolveOneCase(int n, String[] xV, String[] yV) {
+		int[] xVint = new int[xV.length];
+		int[] yVint = new int[xV.length];
+		for (int i = 0; i < xVint.length; i++) {
+			xVint[i] = Integer.parseInt(xV[i]);
+		}
+		for (int i = 0; i < yVint.length; i++) {
+			yVint[i] = Integer.parseInt(yV[i]);
+		}
+		Arrays.sort(xVint);
+		Arrays.sort(yVint);
+		
+		int minProduct = 0;
+		for (int i = 0; i < xVint.length; i++) {
+			minProduct+= xVint[i] * yVint[n-1-i];
+		}
+		
+		return "" + minProduct;
+	}
+
+}

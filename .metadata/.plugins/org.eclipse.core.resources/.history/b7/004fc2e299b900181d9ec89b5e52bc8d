@@ -1,0 +1,23 @@
+package edu.mitrofanov.codejam.r1a_2008.task_a;
+
+import edu.mitrofanov.codejam.utils.FileUtils;
+
+public class Main {
+	public final static String INPUT_FILE = "resources/A-test.in";
+	public final static String OUTPUT_FILE = "resources/A-test.out";
+
+	public static void main(String[] args) throws Exception {
+		String[] input = FileUtils.readFileAsStringArray(INPUT_FILE);
+		String[] output = new String[input.length-1];
+		for (int i =1; i< input.length; i++) {
+			int n = Integer.parseInt(input[i]);
+			String[] xV = input[i+1].split(" ");
+			String[] yV = input[i+2].split(" ");
+			output[i-1] = "Case #" + i + ": " + TaskResolver.resolveOneCase(n, xV, yV);
+		}
+		FileUtils.writeStringArrayToFile(output, OUTPUT_FILE);
+		
+		
+	}
+	
+}

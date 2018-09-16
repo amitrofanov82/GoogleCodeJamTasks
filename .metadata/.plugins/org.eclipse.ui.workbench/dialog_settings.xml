@@ -9,6 +9,11 @@
 		<item value="true" key="uncategorizedFilter"/>
 		<item value="true" key="internalFilter"/>
 	</section>
+	<section name="EditorSelectionDialog">
+		<item value="true" key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL"/>
+		<item value=".in" key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION"/>
+		<item value="D:\installed\Notepad++\notepad++.exe" key="EditorSelectionDialog.STORE_ID_DESCR"/>
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="-1" key="dialogHeight"/>
 		<item value="-1" key="dialogWidth"/>

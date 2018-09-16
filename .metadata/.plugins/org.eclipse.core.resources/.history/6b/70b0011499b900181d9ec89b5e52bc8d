@@ -1,0 +1,22 @@
+package edu.mitrofanov.codejam.r1a_2008.task_a;
+
+import java.util.Arrays;
+
+public class TaskResolver {
+
+	public static String resolveOneCase(int n, String[] xV, String[] yV) {
+		int[] xVint = new int[xV.length];
+		int[] yVint = new int[xV.length];
+		for (int i = 0; i < xVint.length; i++) {
+			xVint[i] = Integer.parseInt(xV[i]);
+		}
+		for (int i = 0; i < yVint.length; i++) {
+			yVint[i] = Integer.parseInt(yV[i]);
+		}
+		Arrays.sort(xVint);
+		Arrays.sort(yVint);
+		
+		return "answer is unknown";
+	}
+
+}
