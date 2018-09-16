@@ -1,0 +1,13 @@
+package edu.mitrofanov.codejam.utils;
+
+public class StringUtils {
+	
+	public static void printlnArray(Object[] array) {
+		System.out.println("[");
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i].toString() + "|");
+		}
+		System.out.println("]");
+	}
+	
+}

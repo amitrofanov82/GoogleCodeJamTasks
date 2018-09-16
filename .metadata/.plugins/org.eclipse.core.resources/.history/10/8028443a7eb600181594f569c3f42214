@@ -1,0 +1,52 @@
+
+Qualification Round 2008
+Problem A. Saving the Universe
+https://code.google.com/codejam/contest/32013/dashboard
+
+Имеетя очередь запросов, каждый запрос должен быть отправлен исполнителю, имя которого не равно запросу.
+Но при этом надо минимизировать переключения по исполнителям. 
+
+Надо ответить, сколько минимимально потребуется переключений.
+
+
+ВВОД:
+
+2 [N - test cases]
+3 [S - test engines]
+ename1  [max 100 chars]
+ename2
+ename3
+4 [Q - queries]
+q1
+q2
+q3
+q4
+10
+...
+5
+...
+
+OUTPUT:
+Case #1: x
+Case #2: y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

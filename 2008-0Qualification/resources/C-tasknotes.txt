@@ -1,0 +1,36 @@
+
+Qualification Round 2008
+Problem C. Fly Swatter
+https://code.google.com/codejam/contest/32013/dashboard#s=p2
+
+
+ВВОД:
+2 [N - test cases]
+
+
+
+OUTPUT:
+Case #1: result
+Case #2: result
+
+LIMITS:
+1 ≤ N ≤ 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

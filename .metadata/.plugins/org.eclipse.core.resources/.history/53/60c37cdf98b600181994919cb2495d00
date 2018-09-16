@@ -1,0 +1,60 @@
+package edu.mitrofanov.codejam.r0_qual_2008.task_b;
+
+import java.util.TreeSet;
+
+public class TaskResolver {
+	private final static int ARRIVAL = (int) (Math.random()*100);
+	private final static int DEPARTURE = ARRIVAL + 1;
+
+	public static String resolveOneCase(int T, String[] aSchedule, String[] bSchedule) {
+		int aResult = 0;
+		int bResult = 0;
+		TreeSet<ScheduleItem> aStack = new TreeSet<>();
+		TreeSet<ScheduleItem> bStack = new TreeSet<>();
+		
+		for (int i =0; i < aSchedule.length; i++){
+			String dTimeAsString = aSchedule[i].split(" ")[0];
+			String aTimeAsString = aSchedule[i].split(" ")[1];
+			int dTime = stringTimeToMinutesPlusTurnover(dTimeAsString, T);
+			int aTime = stringTimeToMinutesPlusTurnover(dTimeAsString, T);
+			aStack.add(new ScheduleItem(dTime, DEPARTURE));
+			bStack.add(new ScheduleItem(aTime, ARRIVAL));
+		}
+		
+		while (!aStack.isEmpty()) {
+			System.out.println(aStack.pollFirst());
+			
+		}
+		
+		
+		return T + " " + aSchedule + " " + bSchedule;
+	}
+
+	
+	private static int stringTimeToMinutesPlusTurnover(String dTimeAsString, int T) {
+		return Integer.parseInt(dTimeAsString.split(":")[0]) * 60 + Integer.parseInt(dTimeAsString.split(":")[1]) + T;
+	}
+
+
+	private static class ScheduleItem implements Comparable<ScheduleItem>{
+		int time;
+		int type;
+
+		@Override
+		public int compareTo(ScheduleItem o) {
+			return this.time - o.time;
+		}
+		
+		ScheduleItem(int time, int type){
+			this.time = time;
+			this.type = type;
+		}
+		
+		@Override
+		public String toString() {
+			return (type == ARRIVAL ? "Arrive at " : "Departure at ") + time;
+		}
+	} 
+	
+}
+

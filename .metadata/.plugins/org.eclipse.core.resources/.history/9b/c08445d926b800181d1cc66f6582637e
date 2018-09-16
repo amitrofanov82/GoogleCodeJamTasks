@@ -1,0 +1,75 @@
+package edu.mitrofanov.codejam.r0_qual_2008.task_c;
+
+public class TaskResolver {
+	final static int SOME_CONST = (int) (Math.random()*100);
+
+	public static String resolveOneCase(double f, double R, double t, double r, double g) {
+		
+		int killedQty = 0;
+		int passedQty = 0;
+		double step = R/10000;
+		for (double hPos = 0; hPos < R; hPos+=step) {
+			for (double vPos = 0; vPos < R; vPos+=step) {
+				if (!inCircle(hPos,vPos,R)) {
+					continue;
+				}
+				if (killed(f, R, t, r, g, hPos, vPos)) {
+					killedQty++;
+				} else {
+					passedQty++;
+				}
+			}
+		}
+		
+		if (killedQty + passedQty == 0) {
+			return "n/a";
+		}
+		return "" + (killedQty/(killedQty + passedQty));
+		
+	}
+	
+	private static boolean inCircle(double hPos, double vPos, double R) {
+		return Math.sqrt(hPos*hPos + vPos*vPos) < R;
+	}
+
+	private static boolean killed(double f, double R, double t, double r, double g, double hPos, double vPos) {
+		
+		if (centerInString(r, g, hPos) || centerInString(r, g, vPos)) {
+			return true;
+		}
+		
+		
+		double leftStringLine = prevLine(r, g, hPos);
+		double rightStringLine = nextLine(r, g, hPos);
+		double upStringLine = nextLine(r, g, vPos);
+		double downStringLine = prevLine(r, g, vPos);
+		
+		return false;
+	}
+
+	private static double prevLine(double r, double g, double pos) {
+		double d = 2*r;
+		pos = pos - r;
+		return Math.floor(pos/(g+d))*(g+d) + r;
+	}
+
+	private static double nextLine(double r, double g, double pos) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	private static boolean centerInString(double r, double g, double pos) {
+		if (pos < r) {return true;}
+		double d = 2*r;
+		pos = pos - r;
+		pos = pos/(g+d) - Math.floor(pos/(g+d));
+		if (pos > g/(g+d)) {
+			return true;
+		}
+		return false;
+	}
+
+
+
+}
+

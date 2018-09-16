@@ -1,0 +1,40 @@
+
+Qualification Round 2008
+Problem B. Train Timetable
+https://code.google.com/codejam/contest/32013/dashboard#s=p1
+
+
+(turnaround time) A <--------------> B (turnaround time)
+
+Дано расписание отправлений.
+Найти сколько поездов в начале дня должно быть доступно в A & B, чтобы расписание было осуществимым.
+
+
+ВВОД:
+2 [N - test cases]
+...
+
+OUTPUT:
+
+
+LIMITS:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

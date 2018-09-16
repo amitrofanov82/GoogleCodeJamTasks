@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+org.eclipse.datatools.sqltools.result.preferences.exportformat.defalut=false
+org.eclipse.datatools.sqltools.result.preferences.exportformat.other=true
+org.eclipse.datatools.sqltools.result.preferences.exportformat.pref_encoding=UTF-8
+org.eclipse.datatools.sqltools.result.preferences.resulthistory.allcolumns=true

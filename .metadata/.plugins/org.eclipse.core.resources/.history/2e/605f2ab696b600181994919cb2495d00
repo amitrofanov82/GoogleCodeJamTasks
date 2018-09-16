@@ -1,0 +1,30 @@
+package edu.mitrofanov.codejam.r0_qual_2008.task_b;
+
+import java.util.TreeSet;
+
+public class TaskResolver {
+	private final static int ARRIVAL = (int) (Math.random()*100);
+	private final static int DEPARTURE = ARRIVAL + 1;
+
+	public static String resolveOneCase(int T, String[] aSchedule, String[] bSchedule) {
+		TreeSet<ScheduleItem> aStack;
+		
+		
+		
+		return T + " " + aSchedule + " " + bSchedule;
+	}
+
+	
+	private static class ScheduleItem implements Comparable<ScheduleItem>{
+		int time;
+		int type;
+
+		@Override
+		public int compareTo(ScheduleItem o) {
+			return this.time - o.time;
+		}
+		
+	} 
+	
+}
+

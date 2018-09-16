@@ -1,0 +1,48 @@
+
+Qualification Round 2008
+Problem C. Fly Swatter
+https://code.google.com/codejam/contest/32013/dashboard#s=p2
+
+
+(turnaround time) A <--------------> B (turnaround time)
+
+Дано расписание отправлений.
+Найти сколько поездов в начале дня должно быть доступно в A & B, чтобы расписание было осуществимым.
+
+Время в пути - часть расписания.
+
+
+ВВОД:
+2 [N - test cases]
+T - turnaround time, minutes
+NA NB - A->B and B->A trains at schedule 
+HH:MM HH:MM - NA times, A->B deprture/arrive
+HH:MM HH:MM - NB times B->A deprture/arrive
+
+
+OUTPUT:
+Case #1: 2 2  - должно быть поездов в А и Б в начале дня, чтобы всё было возможно.
+Case #2: 2 0  -
+
+LIMITS:
+1 ≤ N ≤ 100
+0 ≤ NA, NB ≤ 100
+0 ≤ T ≤ 60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
