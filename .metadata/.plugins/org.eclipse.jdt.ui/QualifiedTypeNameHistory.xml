@@ -10,4 +10,5 @@
 <fullyQualifiedTypeName name="edu.mitrofanov.codejam.utils.StringUtils"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.text.DecimalFormat"/>
 </qualifiedTypeNameHistroy>
