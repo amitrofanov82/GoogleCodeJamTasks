@@ -1,0 +1,44 @@
+
+Round 1A 2008
+Problem B. Milkshakes
+https://code.google.com/codejam/contest/32016/dashboard#s=p1&a=0
+
+
+
+
+ВВОД:
+2 [C - test cases]
+N, the number of milkshake flavors.
+M, the number of customers.
+M lines:
+  T >= 1, the number of milkshake types the customer likes
+  T pairs of integers "X Y":
+     
+
+
+OUTPUT:
+Case #1: 2 2  - должно быть поездов в А и Б в начале дня, чтобы всё было возможно.
+Case #2: 2 0  -
+
+LIMITS:
+1 ≤ N ≤ 100
+0 ≤ NA, NB ≤ 100
+0 ≤ T ≤ 60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

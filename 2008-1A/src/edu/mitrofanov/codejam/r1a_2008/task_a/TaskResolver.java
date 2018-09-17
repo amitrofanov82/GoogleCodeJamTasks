@@ -1,17 +1,16 @@
 package edu.mitrofanov.codejam.r1a_2008.task_a;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.util.Arrays;
 
-import edu.mitrofanov.codejam.utils.StringUtils;
+import edu.mitrofanov.codejam.utils.PrintUtils;
 
 public class TaskResolver {
 
 	public static String resolveOneCase(int n, String[] xV, String[] yV) {
 		System.out.println("" + n);
-		StringUtils.printlnArray(xV);
-		StringUtils.printlnArray(yV);
+		PrintUtils.printlnArray(xV);
+		PrintUtils.printlnArray(yV);
 		 
 		long[] xVint = new long[xV.length];
 		long[] yVint = new long[xV.length];
