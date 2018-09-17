@@ -2,6 +2,7 @@ package edu.mitrofanov.codejam.r0_qual_2008.task_b;
 
 import java.util.TreeSet;
 
+import edu.mitrofanov.codejam.utils.PrintUtils;
 import edu.mitrofanov.codejam.utils.StringUtils;
 
 public class TaskResolver {
@@ -32,8 +33,8 @@ public class TaskResolver {
 		}
 		
 		System.out.println("Turnover is: " + T);
-		StringUtils.printlnArray(aSchedule);
-		StringUtils.printlnArray(bSchedule);
+		PrintUtils.printlnArray(aSchedule);
+		PrintUtils.printlnArray(bSchedule);
 		StringUtils.printlnCollection(aStack);
 		StringUtils.printlnCollection(bStack);
 		

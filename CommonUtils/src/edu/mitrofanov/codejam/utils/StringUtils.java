@@ -5,12 +5,14 @@ import java.util.Iterator;
 
 public class StringUtils {
 	
-	public static void printlnArray(Object[] array) {
-		System.out.print("[");
+	public static String arrayToString(Object[] array) {
+		StringBuilder sb = new StringBuilder();
+		sb.append("[");
 		for (int i = 0; i < array.length; i++) {
-			System.out.print(array[i].toString() + " | ");
+			sb.append(array[i].toString() + " | ");
 		}
-		System.out.println("]");
+		sb.append("]");
+		return sb.toString();
 	}
 	
 	public static void printlnCollection(Collection array) {

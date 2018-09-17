@@ -1,9 +1,0 @@
-package edu.mitrofanov.codejam.utils;
-
-public class StringUtils {
-	
-	public static void printArray(Object[] array) {
-		
-	}
-	
-}
