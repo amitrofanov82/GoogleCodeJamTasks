@@ -6,12 +6,12 @@ import java.util.Scanner;
 import edu.mitrofanov.codejam.utils.FileUtils;
 
 public class Main {
-	public final static String INPUT_FILE = "resources/C-test.in";
-	public final static String OUTPUT_FILE = "resources/C-test.out";
+	//public final static String INPUT_FILE = "resources/C-test.in";
+	//public final static String OUTPUT_FILE = "resources/C-test.out";
 	//public final static String INPUT_FILE = "resources/C-small-practice.in";
 	//public final static String OUTPUT_FILE = "resources/C-small-practice.out";
-	//public final static String INPUT_FILE = "resources/C-large-practice.in";
-	//public final static String OUTPUT_FILE = "resources/C-large-practice.out";
+	public final static String INPUT_FILE = "resources/C-large-practice.in";
+	public final static String OUTPUT_FILE = "resources/C-large-practice.out";
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) throws Exception {
