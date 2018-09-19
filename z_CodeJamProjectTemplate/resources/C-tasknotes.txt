@@ -14,7 +14,7 @@ OUTPUT:
 Case #i: answer
 
 LIMITS:
-1 ≤ N ≤ 100
+1 ≤ T ≤ 100
 
 
 

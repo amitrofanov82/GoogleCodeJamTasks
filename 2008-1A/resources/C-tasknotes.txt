@@ -1,0 +1,38 @@
+
+Round 1A 2008
+Problem C. Numbers
+https://code.google.com/codejam/contest/32016/dashboard#s=p2
+
+ find the last three digits before the decimal point for the number (3 + √5)^n.
+
+INPUT:
+
+T - test cases]
+T lines - each is n
+...
+
+OUTPUT:
+Case #i: answer
+
+LIMITS:
+1 ≤ T ≤ 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
