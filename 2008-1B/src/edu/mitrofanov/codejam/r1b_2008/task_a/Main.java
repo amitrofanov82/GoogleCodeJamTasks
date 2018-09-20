@@ -11,10 +11,10 @@ import edu.mitrofanov.codejam.utils.FileUtils;
 public class Main {
 	//public final static String INPUT_FILE = "resources/A-test.in";
 	//public final static String OUTPUT_FILE = "resources/A-test.out";
-	public final static String INPUT_FILE = "resources/A-small-practice.in";
-	public final static String OUTPUT_FILE = "resources/A-small-practice.out";
-	//public final static String INPUT_FILE = "resources/A-large-practice.in";
-	//public final static String OUTPUT_FILE = "resources/A-large-practice.out";
+	//public final static String INPUT_FILE = "resources/A-small-practice.in";
+	//public final static String OUTPUT_FILE = "resources/A-small-practice.out";
+	public final static String INPUT_FILE = "resources/A-large-practice.in";
+	public final static String OUTPUT_FILE = "resources/A-large-practice.out";
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) throws Exception {
