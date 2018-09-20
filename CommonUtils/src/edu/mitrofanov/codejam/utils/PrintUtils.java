@@ -18,6 +18,14 @@ public class PrintUtils {
 		System.out.println("\t]");
 	}
 	
+	public static void printlnIntArray(long[] array) {
+		System.out.print("[");
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i] + (i != array.length -1 ? " \t| " : ""));
+		}
+		System.out.println("\t]");
+	}
+	
 	public static void printlnIntArray2D(int[][] array) {
 		for (int i = 0; i < array.length; i++) {
 			printlnIntArray(array[i]);
