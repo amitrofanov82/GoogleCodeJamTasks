@@ -1,25 +1,16 @@
 
-Round Year
-Problem X. Name
-https://...
+Round 1B 2008
+Problem A. Crop Triangles
+https://code.google.com/codejam/contest/32017/dashboard#s=p0&a=1
 
 
+There are 9 combinations of (x mod 3) X (Y mod 3). And this is the only that matters 
+to get an aanswer whether (x1+x2+x3) mod 3 == 0 && (y1+y2+y3)/3 mod 3 == 0 are both integers.
 
-INPUT:
+Then we just multiply sizes for each 3 sets of points among those 9 sets, where all 3 chosen 
+sets are satisfied with condition (x1+x2+x3) mod 3 == 0 && (y1+y2+y3)/3 mod 3 == 0.
 
-T - test cases]
-...
-
-OUTPUT:
-Case #i: answer
-
-LIMITS:
-1 ≤ T ≤ 100
-
-
-
-
-
+And for single set we use formuls n*(n-1)(n-2)/n!, as three points must be different.
 
 
 
