@@ -50,12 +50,12 @@ public class TaskResolver {
 			if (partition[i-1] == '0') {
 				currentNum = (currentNum*10 + (caseInput[i] - '0'));
 			} else {
-				result[resultIdx++] = prevSign * currentNum;
+				result[resultIdx++] = (prevSign * currentNum) % 210;
 				currentNum = caseInput[i] - '0';
 				prevSign = partition[i-1] == '1' ? 1 : -1;
 			}
 		}
-		result[resultIdx] = prevSign * currentNum;
+		result[resultIdx] = (prevSign * currentNum) % 210;
 		return result;
 	}
 
