@@ -2,7 +2,6 @@ package edu.mitrofanov.codejam.r1b_2008.task_b;
 
 import java.io.*;
 import java.util.*;
-import java.math.*;
 
 public class ProblemBByMistik {
 	int[] p = new int[1000001], rank = new int[1000001];

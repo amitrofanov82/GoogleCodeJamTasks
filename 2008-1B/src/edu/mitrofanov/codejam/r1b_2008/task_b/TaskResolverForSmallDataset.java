@@ -42,6 +42,7 @@ public class TaskResolverForSmallDataset {
 		return "" + sets.size();
 	}
 	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	private static void mergeSets(LinkedList<Set<Long>> sets, List<Integer> setsToMerge, Set<Long> primeFactors) { //assert setsToMerge is sorted;
 		//System.out.println("before merge: " + sets);
 		//System.out.println("merging sets: " + setsToMerge);

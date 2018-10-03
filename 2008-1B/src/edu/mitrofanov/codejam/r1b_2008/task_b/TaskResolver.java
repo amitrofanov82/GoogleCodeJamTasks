@@ -52,7 +52,7 @@ public class TaskResolver {
 		}
 		System.out.println("phase2 phinish");
 		long phase2Time = System.currentTimeMillis();
-		//calculate how many numbers are not in any merged set:
+		//calculate how many numbers are not in any merged sets:
 		int mergedSetsSize = 0;
 		for (TreeSet<Long> treeSet : sets) {
 			mergedSetsSize+=treeSet.size();

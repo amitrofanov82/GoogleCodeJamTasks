@@ -1,0 +1,29 @@
+
+Round 1C 2008
+Problem B. Ugly Numbers
+https://code.google.com/codejam/contest/32015/dashboard#s=p1
+
+start at 14:30 14:36 условие понято, пауза.
+
+Простое решение перебором - время написание 40 минут, когда уже всё продумано. 
+
+Решение перебором довольно очевидное, дело техники организовать разбиение на основании троичного числа.
+Полное решение - нерешаемая жесть. Только с помощью анализа гугла.
+
+
+INPUT:
+
+T - test cases]
+00123124  - String with digits
+12345
+431234
+
+OUTPUT:
+Case #i: Y 
+is the number of expressions that evaluate to an ugly number.
+
+LIMITS:
+1 ≤ T ≤ 100
+13 characters long. small  (3^12 options to make expression, ok for full iteration)
+40 characters long. big.  (3^39 options to make expression, it's about Long.Max/2)
+

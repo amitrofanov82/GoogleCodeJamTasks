@@ -1,0 +1,37 @@
+
+Round Year
+Problem X. Name
+https://...
+
+
+
+INPUT:
+
+T - test cases]
+...
+
+OUTPUT:
+Case #i: answer
+
+LIMITS:
+1 ≤ T ≤ 100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -235,6 +235,7 @@ EXTERNAL:
 
 
 
+	@SuppressWarnings("unused") 
 	private static int findColByHeader(int[][] dataMatrix, int shakeNum) {
 		for (int i = 0; i < dataMatrix[0].length-1; i++) {
 			if (dataMatrix[0][i] == shakeNum){

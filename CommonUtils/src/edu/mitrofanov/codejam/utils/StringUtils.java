@@ -15,9 +15,9 @@ public class StringUtils {
 		return sb.toString();
 	}
 	
-	public static void printlnCollection(Collection array) {
+	public static void printlnCollection(Collection<?> array) {
 		System.out.print("[");
-		Iterator it = array.iterator();
+		Iterator<?> it = array.iterator();
 		while (it.hasNext()) {
 			System.out.print(it.next().toString() + "|");
 		}
